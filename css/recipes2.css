@@ -1,0 +1,671 @@
+/* Elementos en comun */
+@font-face {
+    font-family: "myfont";
+    src: url("/fonts/japanese_3017/Japanese\ 3017.otf") format('woff');
+}
+
+.abrir-menu {
+    display: none;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/fondo/fondoOscuro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Inicio Header */
+#logo {
+    grid-area: logo;
+    width: 35%;
+    border-radius: 50%;
+    margin: 2%;
+    margin-left: 3%;
+
+
+}
+
+header {
+    display: grid;
+    margin-bottom: 5%;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+        "logo nav"
+
+}
+
+/* Inicio Nav */
+
+nav {
+    grid-area: nav;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+
+
+}
+
+.nav {
+
+    display: block;
+    justify-content: space-between;
+    margin-left: 10%;
+
+
+
+}
+
+
+.nav li {
+    float: left;
+    display: block;
+    margin-right: 30px;
+
+
+
+
+
+}
+
+
+nav>ul>li>a {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: myfont;
+    text-decoration: none;
+    letter-spacing: 4px;
+
+}
+
+a:hover {
+    color: #c4057c;
+}
+
+
+
+/* Fin Nav */
+
+/* empieza section */
+
+.titulo-receta {
+    font-family: 'myfont', sans-serif;
+    font-size: 4rem; 
+    margin-top: 5%;
+    margin-bottom: 3%; 
+    color: #c4057c; 
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 8px rgba(214, 47, 47, 0.5); 
+}
+
+
+
+.wrapper {
+    display: grid;
+
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas:
+        "info info1 card1";
+
+
+}
+
+.receta1 {
+    border-radius: 0;
+    width: 60%;
+    align-self: end;
+    z-index: 1;
+    object-fit: cover;
+    position: relative;
+    margin-left: 20%;
+
+
+
+}
+
+.info {
+    grid-area: info;
+    position: relative;
+
+}
+
+.contenedor-title {
+    margin-left: 10%;
+}
+
+.titulo-receta {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+
+    letter-spacing: 10px;
+
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: left;
+
+
+
+}
+
+.separadorCard {
+    background-color: #c4057c;
+    width: 70%;
+    min-height: 1px;
+    border: none;
+    text-align: center;
+    margin-right: 30%;
+
+
+
+}
+
+.linearosa1 {
+    display: none;
+}
+
+.contenido {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0%;
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.contenido li {
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+
+.contenido1 li {
+    margin-bottom: 6%;
+}
+
+.contenido1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20%;
+
+
+}
+
+h3 {
+    font-family: myfont;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 1%;
+    letter-spacing: 2px;
+
+}
+
+/* fin section */
+
+
+
+/* empiezo footer */
+
+footer {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas:
+        "card1Footer card2Footer card3Footer";
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    min-height: 200px;
+
+}
+
+.card1Footer {
+    grid-area: card1Footer;
+    margin-left: 30%;
+    color: white;
+
+
+
+}
+
+.card2Footer {
+    grid-area: card2Footer;
+    margin-left: 0%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.card3Footer {
+    grid-area: card3Footer;
+    margin-left: 10%;
+
+
+
+
+
+}
+
+.titleFooter {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.numTel {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 6%;
+
+}
+
+
+
+#logoFooter {
+    width: 40%;
+    border-radius: 0%;
+    color: white;
+    margin-left: 30%;
+
+
+
+}
+
+#igLogo {
+    width: 10%;
+    margin-left: 2%;
+    margin-top: 15%;
+
+}
+
+#twitterLogo {
+    width: 10%;
+    margin-left: 2%;
+    margin-top: 15%;
+
+}
+
+.separador {
+    background-color: #c4057c;
+    width: 70%;
+    min-height: 1px;
+    border: none;
+    text-align: center;
+    margin-left: 15%;
+
+}
+
+/* 
+BOTON ARRIBA */
+
+.boton-arriba-contenedor {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+    z-index: -1;
+}
+
+.boton-arriba {
+    width: 0px; 
+    height: 0px; 
+    background: url('/images/fondo/subir.png') center center no-repeat; /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el botón */
+    border-radius: 50%;
+    transition: .2s;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+.boton-arriba i {
+    position: absolute;
+    font-size: 17px;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: white;
+    transition: .2s;
+}
+.show{
+    z-index: 10;
+}
+.show  .boton-arriba{
+    animation: popup .3s ease-in-out;
+    width: 30px;
+    height: 30px;
+    z-index: 11;
+}
+
+.show i{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+@keyframes popup {
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+ 
+    100%{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Fin Elementos en comun */
+
+@media(700px <=width <=1100px) {
+
+    #logo {
+        width: 50%;
+
+        margin: 2%;
+        margin-left: 3%;
+
+
+    }
+
+    nav {
+
+
+        width: 100%;
+        margin-left: 15%;
+        margin-top: 8%;
+
+
+    }
+
+    ul {
+
+
+        margin-left: 0%;
+        font-size: 20px;
+        width: 120%;
+
+
+
+
+    }
+
+
+
+
+    nav>ul>li>a {
+        font-size: 30px;
+    }
+
+    /* 
+section */
+
+.receta1 {
+
+    width: 70%;
+    margin-right: 20%;
+    margin-top: 25%;
+    margin-left: 5%;
+
+
+
+
+}
+.contenido li,
+.contenido1 li {
+    font-size: 18px;
+   
+   
+    
+}
+.contenido li{
+    margin-right: 20%;
+}
+.info1{
+    margin-left: 10%;
+}
+
+
+    /* fin contenido general */
+
+    #logoFooter {
+        margin-top: 35%;
+    }
+
+    #igLogo {
+        width: 15%;
+        margin-left: 5%;
+        margin-top: 40%;
+
+    }
+
+    #twitterLogo {
+        width: 15%;
+        margin-left: 5%;
+        margin-top: 40%;
+
+    }
+
+    .titleFooter {
+
+        font-size: 20px;
+
+    }
+
+    .numTel {
+
+        font-size: 25px;
+        margin-top: 25%;
+    }
+
+    .card1Footer {
+        grid-area: card1Footer;
+        margin-left: 30%;
+        color: white;
+
+
+
+    }
+
+    .card2Footer {
+        grid-area: card2Footer;
+        margin-left: 0%;
+
+
+
+
+    }
+
+    .card3Footer {
+        grid-area: card3Footer;
+        margin-right: 10%;
+
+    }
+
+    footer {
+        margin-top: 0%;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-areas:
+            "card1Footer card2Footer card3Footer";
+        width: 100%;
+        background-color: transparent;
+        color: white;
+        min-height: 200px;
+
+    }
+
+}
+
+@media(width < 700px) {
+
+
+
+    /* Haciendo el logo mas grande y creando barra de navegacion hamburguesa */
+    #logo {
+        display: flex;
+        width: 80%;
+        margin: 5%;
+        margin-left: 5%;
+
+    }
+
+    nav {
+        background-color: transparent;
+        width: 70%;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        position: absolute;
+        top: 30px;
+        right: 0px;
+        width: 70%;
+
+    }
+
+    .abrir-menu {
+        display: block;
+        width: 10%;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+
+
+    }
+
+    .nav_visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-left: 20%;
+        margin-top: 10%;
+
+    }
+
+    nav>ul>li>a {
+
+        font-size: 30px;
+
+
+    }
+
+    /* Contenido general */
+    
+    .wrapper {
+        
+    
+        grid-template-columns: 30% 40% 30%;
+    
+    
+    
+    }
+    .info1 {
+        margin-left: 0%;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+    .contenedor-title1{
+        margin-left: 20%;
+        
+    }
+    .receta1 {
+        width: 80%;
+        margin-left: 0%;
+        margin-top: 30%;
+    }
+
+    .contenido,
+    .contenido1 {
+        font-size: 12px;
+        
+    }
+    .contenido{
+        margin-left: 5%;
+    }
+    .contenido1{
+        margin-left: 2%;
+    }
+
+    /* Aparato footer movil */
+    .titleFooter {
+        font-size: 20px;
+
+    }
+
+    .numTel {
+        font-size: 20px;
+
+    }
+
+    footer {
+        min-height: 80px;
+       
+
+
+    }
+
+    #logoFooter {
+        width: 50%;
+        border-radius: 0%;
+        color: white;
+        margin-left: 30%;
+        margin-top: 15%;
+
+
+    }
+
+    #igLogo {
+        width: 25%;
+        margin-right: 10%;
+
+
+    }
+
+    #twitterLogo {
+        width: 25%;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

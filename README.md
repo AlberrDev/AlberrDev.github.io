@@ -2,11 +2,11 @@
 
 # SSH SUSHI Test Webpage
 
-Welcome to the interactive test page for your web application!
+Welcome to the interactive test page for your web application! This project, currently in its beta version, aims to recreate the experience of a sushi recipe webpage.
 
 ## Description
 
-The SSH SUSHI Test Webpage provides a simple yet effective interface to evaluate various aspects of your web application. It leverages standard web technologies such as HTML for structure, CSS for styling, and JavaScript for interactivity.
+The SSH SUSHI Test Webpage provides a delightful interface for evaluating various aspects of your web application. Its design is inspired by the clean and aesthetic layouts commonly found in sushi recipe websites. The page leverages standard web technologies such as HTML for structure, CSS for styling, and JavaScript for interactivity.
 
 
 
@@ -14,11 +14,13 @@ The SSH SUSHI Test Webpage provides a simple yet effective interface to evaluate
 
 - **Logo by:** [Jesus Honrubia Julia]
 
-## Screenshots
 
-<!-- Add captivating screenshots showcasing key features of your webpage -->
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
+
+<img src="https://github.com/AlberrDev/AlberrDev.github.io/raw/main/MascotaPNG.png" alt="MascotaPNG" width="100"/> <img src="https://github.com/AlberrDev/AlberrDev.github.io/raw/main/LogoBlanco.png" alt="LogoBlanco" width="150"/>
+
+
+
+
 
 ### 🚀 Web Technologies
 

@@ -216,13 +216,14 @@ h3 {
 
 .receta1 {
     border-radius: 60%;
-    width: 50%;
+    width: 60%;
 
 }
 
 .receta2 {
     border-radius: 50%;
-    width: 60%;
+    width: 70%;
+   
 
     
    
@@ -231,20 +232,12 @@ h3 {
 
 .receta3 {
     border-radius: 50%;
-    width: 60%;
-    
+    width: 70%;
+   
 
 }
 
-.receta4 {
-    border-radius: 50%;
 
-}
-
-.receta5 {
-    border-radius: 50%;
-
-}
 
 
 

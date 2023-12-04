@@ -11,8 +11,8 @@ The SSH SUSHI Test Webpage provides a delightful interface for evaluating variou
 
 
 ## Contributors
-
-- **Logo by:** [Jesus Honrubia Julia]
+>[!NOTE]
+>- **Logo by:** [Jesus Honrubia Julia]
 
 
 
